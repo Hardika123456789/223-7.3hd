@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "9K6Q8cUWBbArya1RiCrPAZeeYq8j7IQSV3+kVbsid6E=",
+  "Source": "RestaurantApp",
+  "BasePath": "_content/RestaurantApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "RestaurantApp\\wwwroot",
+      "Source": "RestaurantApp",
+      "ContentRoot": "D:\\RestaurantApp_HD\\wwwroot\\",
+      "BasePath": "_content/RestaurantApp",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\RestaurantApp_HD\\wwwroot\\index.html",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RestaurantApp_HD\\wwwroot\\",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\RestaurantApp_HD\\wwwroot\\script.js",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RestaurantApp_HD\\wwwroot\\",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\script.js"
+    },
+    {
+      "Identity": "D:\\RestaurantApp_HD\\wwwroot\\style.css",
+      "SourceId": "RestaurantApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\RestaurantApp_HD\\wwwroot\\",
+      "BasePath": "_content/RestaurantApp",
+      "RelativePath": "style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style.css"
+    }
+  ]
+}

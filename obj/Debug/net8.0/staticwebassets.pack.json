@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\RestaurantApp_HD\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\RestaurantApp_HD\\wwwroot\\script.js",
+      "PackagePath": "staticwebassets\\script.js"
+    },
+    {
+      "Id": "D:\\RestaurantApp_HD\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.RestaurantApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.RestaurantApp.props",
+      "PackagePath": "build\\RestaurantApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.RestaurantApp.props",
+      "PackagePath": "buildMultiTargeting\\RestaurantApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.RestaurantApp.props",
+      "PackagePath": "buildTransitive\\RestaurantApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
