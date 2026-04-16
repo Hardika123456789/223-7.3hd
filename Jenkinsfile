@@ -30,7 +30,8 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                bat 'docker run -d -p 5000:80 restaurant-app'
+                bat 'docker rm -f restaurant-app-container || exit 0'
+                bat 'docker run -d -p 5000:80 --name restaurant-app-container restaurant-app'
             }
         }
 
@@ -42,6 +43,7 @@ pipeline {
 
         stage('Monitoring') {
             steps {
+                bat 'timeout /t 10'
                 bat 'curl http://localhost:5000/health'
             }
         }
