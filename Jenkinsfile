@@ -10,14 +10,17 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'dotnet restore RestaurantApp.csproj'
-                bat 'dotnet build RestaurantApp.csproj --configuration Release'
+                bat 'dotnet clean RestaurantApp_HD.sln'
+                bat 'dotnet restore RestaurantApp_HD.sln'
+                bat 'dotnet build RestaurantApp_HD.sln --configuration Release'
             }
         }
 
         stage('Test') {
             steps {
-                bat 'dotnet test RestaurantApp.Tests/RestaurantApp.Tests.csproj'
+                bat 'dotnet clean RestaurantApp.Tests/RestaurantApp.Tests.csproj'
+                bat 'dotnet restore RestaurantApp.Tests/RestaurantApp.Tests.csproj'
+                bat 'dotnet test RestaurantApp.Tests/RestaurantApp.Tests.csproj --no-build'
             }
         }
 
