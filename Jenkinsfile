@@ -5,8 +5,8 @@ pipeline {
 
         stage('Build') {
             steps {
-                bat 'dotnet restore'
-                bat 'dotnet build --configuration Release'
+                bat 'dotnet restore RestaurantApp.csproj'
+                bat 'dotnet build RestaurantApp.csproj --configuration Release'
             }
         }
 
