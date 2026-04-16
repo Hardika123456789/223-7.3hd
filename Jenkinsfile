@@ -43,7 +43,7 @@ pipeline {
 
         stage('Monitoring') {
             steps {
-                bat 'timeout /t 10'
+                bat 'ping 127.0.0.1 -n 10 > nul'
                 bat 'curl http://localhost:5000/health'
             }
         }
