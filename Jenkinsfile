@@ -12,7 +12,7 @@ pipeline {
 
         stage('Test') {
             steps {
-                bat 'dotnet test'
+                bat 'dotnet test RestaurantApp.csproj'
             }
         }
 
